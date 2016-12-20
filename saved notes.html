@@ -1,0 +1,50 @@
+<nav>
+		Index <a href="Aboutme.html">About Me </a><a href="Location.html">Location </a><a href="Resume.html">Resume</a>
+	</nav>
+
+this is as a navigation above. When it's nav, any padding or margin or any changes like that, it affects around the entire nav as a WHOLE. If I want spacing in btwn the words of the nav, I have to isolate the items individually. My plan is to make it an unordered list, and then isolate `header li {` so it only affects those, and not my resume.
+
+<center><ul>
+	<li><a href="Index.html">Index </a></li>
+	<li><a href="Aboutme.html">About Me </a></li>
+	<li><a href="Location.html">Location </a></li>
+	<li><a href="Resume.html">Resume</a></li>
+</ul></center>
+
+This is how I have it now, and it works. Above code has been copied to each page, removing the link that sends you to the page you're already on, for clarity
+
+article {
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+^ that stuff is to isolate the pieces of text i have for my About Me, Location, and ONLY the Work Experience section of my Resume. this width and padding gives it some space and if it's shrunk down on a smaller screen, the text lines up properly without having to scroll left/right, and the margin thingy makes it so there's no margin on the top or bottom, but the `auto` feature makes it so that on whatever screen it's on, it compensates for that, regardless of platform.
+
+*FIND OUT WHAT COLOR PURPLE TO USE AS THE LINKS FOR "ABOUT ME".
+	color: rgb(174,129,255)
+	green is rgb(166,226,46)
+LEARNED SOMETHING NEW. If I use id="example" then I can make it unique, and style it by doing #example{change only this/these items}
+
+
+ <script>
+    alert("Javascript works!")
+    </script>
+    ^^^^ hint at Java, popup
+
+ TO TURN STUFF OFF, wrap it in /*this stuff is turned off*/ tags real quick, like a switch
+
+use google.com/fonts to find a font you like. Input the <link...> stuff in the head, right at the chin of it. Then, in the style sheet, paste the second thing of code, when you do something like h1{} and put it in the curly brackets
+
+*figure out how the position:relative vs position: absolute works, and why theyre separated in the div and <p> in step 1 project 3 in Dash
+
+**TO MAKE HEADER AND FOOTER TO BLEED, IT'S THE *BODY* THAT TAKES MARGIN: 0%
+
+.
+All metadata in head, all physical things in body
+FINAL NOTE, HEADER AND FOOTER GO INSIDEEEEE THE BODY. Also, just center everything fuck it, forget about the center tags in the location, about me, and resume
+Span has no default, i was lied to. Its just so i can isolate something and style it alone
+
+do studying on javascript, watch tutorials, do GA Fundamentals chapter 4(not just dash) and read the slides on google drive. GA expects you to fully understand HTML and CSS already, so those aren't taught/covered. Just Javascript until you go insane.
+
+OK so the Index Page, gonna change the entire body to be the full image from the header, and have no header image (unless it lines up?)

@@ -1,0 +1,78 @@
+html{
+	font-family: sans-serif;
+}
+h1{
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}
+img{
+	align-self: center;
+}
+header{
+	background-image: url("colonywall.jpg");
+	background-size: cover;
+	text-align: center;
+	color: rgb(253,151,31);
+	background-color: rgb(39,40,34);
+}
+header img{
+	margin-top: 20px;
+}
+header a:hover{
+	background-color: rgb(102,217,239);
+	color: rgb(39,40,34);
+	transition: 0.5s;
+}
+header a{
+	color: rgb(102,217,239);
+	padding: 10px 10px 1px 10px;
+}
+header ul{
+	margin: 0;
+	padding: 10px 0px 1px 0px;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+}
+header li{
+	display: inline-block;
+}
+article{
+	text-align: justify, center;
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+body img{
+	display: block;
+	margin: auto;
+}
+body{
+	text-align: justify, center;
+	margin: 0%;
+	background-color: rgb(39,40,34);
+	color: white;
+}
+body a{
+	text-decoration: bold;
+}
+#resume{
+	text-align: center;
+}
+#links{
+	color: rgb(174,129,255);
+}
+#biotitle{
+	color: rgb(174,129,255);
+	text-shadow: -1px 0 black, 2px 0 black, 2px 0 black, -1px 0 black;
+}
+footer{
+	margin-top: 5%;
+	padding: 10px 0px 1px 0px;
+	background-color: rgb(0,0,0);
+	text-align: center;
+}
+#contact{
+	color: rgb(249,38,114);
+}
