@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html>
-<title>Contact Me!</title>
-<head>
-	<link rel="stylesheet" type="text/css" href="myspace.css">
-	<style type="text/css">
-		form{
-			width: 300px;
-			padding: 20px;
-			background-color: rgb(39,40,34);
-			color: #87F;
-		}
-		input[type=button]{
-			color: limegreen;
-			background-color: rgb(39,40,34);
-			padding: 3px;
-			border-color: limegreen;
-		}
-		input[type=text]:focus{
-			background-color: rgb(174,129,255);
-		}
-	</style>
-</head>
-<header>
-	<img src="icon.png" width="100" height="100" >
-	<h1 id="biotitle">
-		Brian Carela's Biography Site
-	</h1>
-<center><ul>
-	<li><a href="index.html">Index</a></li>
-	<li><a href="Aboutme.html">About Me </a></li>
-	<li><a href="Location.html">Location </a></li>
-	<li><a href="Resume.html">Resume</a></li>
-</ul></center>
-</header>
-<body>
-	<form>
-		<h2>Contact Me!</h2>
-		Full name: <br>
-		<input type="text" name="fullname" placeholder="First and Last"> <br>
-		Email Address: <br>
-		<input type="text" name="email"> <br>
-		Gamer tag: <br>
-		<input type="text" name="gamertag" placeholder="With sponsor/crew"> <br>
-		Phone number: <br>
-		<input type="text" name="phonenumber" placeholder="Optional"> <br>
-		Reason for Contact: <br>
-		<input type="reason" name="reason"> <br> <br>
-		<input type="button" name="submit" value="submit">
-	</form>
-</body>
-<footer>
-	<a href="Form.html" id="contact">Contact Me!</a>
-</footer>
+	<head>
+		<title>Contact Me!</title>
+		<link rel="stylesheet" type="text/css" href="myspace.css">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<style type="text/css">
+			form{
+				width: 300px;
+				padding: 20px;
+				background-color: rgb(39,40,34);
+				color: #87F;
+			}
+			input[type=button]{
+				color: limegreen;
+				background-color: rgb(39,40,34);
+				padding: 3px;
+				border-color: limegreen;
+			}
+			input[type=text]:focus{
+				background-color: rgb(174,129,255);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><img src="icon.png" width="100" height="100" id="icon"></a>
+			<h1 id="biotitle">Brian Carela's Biography Site</h1>
+			<ul>
+				<li><a href="index.html" id="nav">Index</a></li>
+				<li><a href="Aboutme.html" id="nav">About Me </a></li>
+				<li><a href="Location.html" id="nav">Location </a></li>
+				<li><a href="Resume.html" id="nav">Resume</a></li>
+			</ul>
+		</header>
+			<form>
+				<h2>Contact Me!</h2>
+				Full name: 
+				<br>
+				<input type="text" name="fullname" placeholder="First and Last"> 
+				<br>
+				Email Address: 
+				<br>
+				<input type="text" name="email"> 
+				<br>
+				Gamer tag: 
+				<br>
+				<input type="text" name="gamertag" placeholder="With sponsor/crew">
+				<br>
+				Phone number: 
+				<br>
+				<input type="text" name="phonenumber" placeholder="Optional"> 
+				<br>
+				Reason for Contact: 
+				<br>
+				<input type="text" name="reason"> 
+				<br> 
+				<br>
+				<input type="button" name="submit" value="submit">
+			</form>
+		<footer>
+			<a href="Form.html" id="contact">Contact Me!</a>
+		</footer>
+	</body>
 </html>

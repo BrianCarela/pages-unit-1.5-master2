@@ -18,9 +18,9 @@ header{
 	background-color: rgb(39,40,34);
 }
 header img{
-	margin-top: 20px;
+	margin-top: 25px;
 }
-header a:hover{
+#nav:hover{
 	background-color: rgb(102,217,239);
 	color: rgb(39,40,34);
 	transition: 0.5s;
@@ -49,6 +49,7 @@ body img{
 	margin: auto;
 }
 body{
+	font-family: 'Inconsolata', monospace;
 	text-align: justify, center;
 	margin: 0%;
 	background-color: rgb(39,40,34);
@@ -57,16 +58,43 @@ body{
 body a{
 	text-decoration: bold;
 }
+#icon{
+	padding-top: 20px;
+}
+#selfie{
+	margin-top: 10px;
+}
+#nameadd{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
 #resume{
 	text-align: center;
 }
+#restitle{
+	text-align: center;
+	font-size: larger;
+	font-weight: bold;
+}
+#position{
+	font-style: italic;
+}
+#workdates{
+	font-size: smaller;
+}
 #links{
 	color: rgb(174,129,255);
+	font-weight: bold;
 }
 #biotitle{
 	color: rgb(174,129,255);
-	text-shadow: -1px 0 black, 2px 0 black, 2px 0 black, -1px 0 black;
-}
+	text-shadow:  
+		-1px -1px 0 #000,  
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+     	1px 1px 0 #000;
+     }
 footer{
 	margin-top: 5%;
 	padding: 10px 0px 1px 0px;
