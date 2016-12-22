@@ -52,6 +52,10 @@ body{
      	1px 1px 0 #000;
      }
 footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	margin-top: 5%;
 	padding: 10px 0px 1px 0px;
 	background-color: rgba(0,0,0,0.7);
