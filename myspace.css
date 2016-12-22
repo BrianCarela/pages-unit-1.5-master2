@@ -72,15 +72,15 @@ body a{
 #resume{
 	text-align: center;
 }
-#restitle{
+.restitle{
 	text-align: center;
 	font-size: larger;
 	font-weight: bold;
 }
-#position{
+.position{
 	font-style: italic;
 }
-#workdates{
+.workdates{
 	font-size: smaller;
 }
 #links{
